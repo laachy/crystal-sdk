@@ -55,6 +55,8 @@ Functions such as memcpy, memset, memmove, and strlen are inlined and can be use
 
    `#[unsafe(no_mangle)] extern  "C"  fn  go()`
 
+- To comply with automatic generated bindings, system functions must be defined as extern "C". While "system" is the correct ABI, on x86-64 "C" and "system" are the exact same. This was the easiest solution as bindgen does not generate "system"
+
 
 
 # TODO and issues
