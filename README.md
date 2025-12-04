@@ -63,3 +63,6 @@ Functions such as memcpy, memset, memmove, and strlen are inlined and can be use
  2. Make the import function interface and usage cleaner by implementing traits
  3. Add x86 support
 
+# Credits
+Helped me with symbol names and might use the deref method later: https://github.com/wumb0/rust_bof/blob/master/libs/bofhelper/src/lib.rs
+
