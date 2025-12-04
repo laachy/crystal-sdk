@@ -1,0 +1,12 @@
+[package]
+name = "crystal-sdk"
+version = "0.1.0"
+edition = "2024"
+
+description = "Crystal SDK allows developers to easily write crystal palace PICO's in rust"
+repository = "https://github.com/laachy/crystal-sdk"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+paste = "1.0.15"
